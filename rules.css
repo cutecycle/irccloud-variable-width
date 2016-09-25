@@ -1,2 +1,8 @@
-div#sidebarwrapper { width: 0px; } 
-div#container { min-width: 0px; } 
+@media (max-width: 950px) {
+    div#sidebarwrapper {
+        width: 0px;
+    }
+    div#container {
+        min-width: 0px;
+    }
+}
